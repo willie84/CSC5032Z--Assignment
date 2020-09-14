@@ -21,7 +21,7 @@ from ripe.atlas.cousteau import (
 pathToDb = "GeoLite2-City.mmdb"
 pathToAsnDb = "GeoLite2-ASN.mmdb"
 
-
+#some code adopted from RIPE Atlas cousteau tutorial. https://github.com/RIPE-NCC/ripe-atlas-cousteau
 def send_ripe_measurement_request(domain, apikey):
     traceroute1 = Traceroute(
         af=4,
