@@ -18,8 +18,8 @@ from ripe.atlas.cousteau import (
     AtlasResultsRequest
 )
 
-pathToDb = "GeoLite2-City.mmdb"
-pathToAsnDb = "GeoLite2-ASN.mmdb"
+pathToDb = "Resources/GeoLite2-City.mmdb"
+pathToAsnDb = "Resources/GeoLite2-ASN.mmdb"
 
 #some code adopted from RIPE Atlas cousteau tutorial. https://github.com/RIPE-NCC/ripe-atlas-cousteau
 def send_ripe_measurement_request(domain, apikey):
